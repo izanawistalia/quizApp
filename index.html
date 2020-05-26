@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            quizApp
+        </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <form name="quiz" onsubmit="return ready()">
+                <h1 align="center">QUIZ</h1>
+                <h3 align="center">Score: <span class='score'></span></h3>
+                <div align="center" class="question">
+                    <h2>What is HTML?</h2>
+                <input type="radio" name="q1" value="a" id="q1a">Scripting language<br>
+                <input type="radio" name="q1" value="b" id="q1b">Markup language<br>
+                <input type="radio" name="q1" value="c" id="q1c">Programming Language<br>
+                <input type="radio" name="q1" value="d" id="q1d">Backend Language<br>
+
+                <h2>What is CSS?</h2>
+                <input type="radio" name="q2" value="a" id="q2a">Styling Language<br>
+                <input type="radio" name="q2" value="b" id="q2b">Proramming Language<br>
+                <input type="radio" name="q2" value="c" id="q2c">Scripting Language<br>
+                <input type="radio" name="q2" value="d" id="q2d">None<br>
+
+                <h2>Is JavaScript usefull?</h2>
+                <input type="radio" name="q3" value="t" id="q3t">True<br>
+                <input type="radio" name="q3" value="f" id="q3f">False<br>
+
+                <button type='submit'>Submit</button>
+
+                </div>
+            </form>
+        </div>
+
+    </body>
+    <script src="main.js"></script>
+</html>

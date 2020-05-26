@@ -1,0 +1,19 @@
+.container{
+    background-color: rgb(197, 204, 204);
+    margin: 30px auto;
+    height: 600px;
+    width: 70%;
+
+}
+.question{
+    width: 100%;
+    margin: 20px auto;
+}
+
+button{
+    background-color: grey;
+    font-weight: bold;
+    height: 30px;
+    margin: 30px;
+    
+}
